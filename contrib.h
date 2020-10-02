@@ -1,6 +1,15 @@
 #ifndef CONTRIB_H
 #define CONTRIB_H
 
+// sample class 
+typedef struct sample_class sample_class; 
+sample_class* sample_ctor(); 
+int sample_get(); 
+void sample_set(); 
+void* sample_custom(); 
+void sample_print(); 
+void sample_dtor(); 
+
 // jon class 
 typedef struct jon_class jon_class; 
 jon_class* jon_ctor(); 
