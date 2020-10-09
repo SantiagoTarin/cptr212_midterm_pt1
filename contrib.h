@@ -76,7 +76,7 @@ void skyler_dtor();
 // ashley class
 typedef struct evan_class evan_class; 
 evan_class* evan_ctor(); 
-evan_class evan_get(); 
+int evan_get(); 
 void evan_set(); 
 void* evan_custom(); 
 void evan_print(); 
