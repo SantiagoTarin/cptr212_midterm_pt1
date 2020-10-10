@@ -29,7 +29,7 @@ trevor_class* trevor_ctor()
     sc->jersey_number = 92;
     sc->weight = 147;
     sc->grade = "Jr";
-    sc->position = 'M'
+    sc->position = 'M'; 
     sc->gp = 0;
     sc->pastSchool = malloc(sizeof(char) * 200);
     strcpy(sc->pastSchool, "Hesston College");

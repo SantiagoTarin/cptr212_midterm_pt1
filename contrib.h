@@ -1,15 +1,6 @@
 #ifndef CONTRIB_H
 #define CONTRIB_H
 
-// sample class 
-typedef struct sample_class sample_class; 
-sample_class* sample_ctor(); 
-int sample_get(); 
-void sample_set(); 
-void* sample_custom(); 
-void sample_print(); 
-void sample_dtor(); 
-
 // jon class 
 typedef struct jon_class jon_class; 
 jon_class* jon_ctor(); 
@@ -31,7 +22,7 @@ void nic_dtor();
 // akito class
 typedef struct akito_class akito_class; 
 akito_class* akito_ctor(); 
-akito_class akito_get(); 
+int akito_get(); 
 void akito_set(); 
 void* akito_custom(); 
 void akito_print(); 
@@ -81,6 +72,5 @@ void evan_set();
 void* evan_custom(); 
 void evan_print(); 
 void evan_dtor(); 
-
 
 #endif
